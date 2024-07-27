@@ -1,0 +1,498 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+      
+  }
+  /* defoult style here  */
+ 
+  .header-wrapper{
+      background-color: black;
+      
+
+  }
+  .header{
+      max-width: 1200px;
+      
+      margin: 0 auto;
+  }
+  .nav-bar{
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      justify-content: space-between;
+  }
+  .nav-links{
+      display: flex;
+      gap: 30px;
+      justify-content: space-evenly;
+  }
+  .btn-normal{
+      color: white;
+  }
+  .nav-title{
+      color: white;
+  }
+  .hero-title{
+      font-size: 4rem;
+      color: white;
+  }
+  .hero-description{
+      font-size: 1rem;
+      color: white;
+  }
+  .hero-container{
+      display: flex;
+      gap: 7rem;
+      max-width: 1200px;
+  }
+  .hero-content{
+      margin-top: 120px;
+      width: 45%;
+      border: 1px solid tomato;
+      margin-bottom: 120px;
+      
+  }
+  .icon i{
+    font-size: 2.8rem;
+    color: red;
+  }
+  .icon-content{
+    color: white;
+  }
+  .icon{
+    display: flex;
+  }
+  .text{
+    color: white;
+  }
+  .hero-image-content{
+    width: 47%;
+    border: 1px solid white;
+    
+  }
+  /* habit section start here  */
+  .habit-wrapper{
+    background-color: black;
+  }
+  .habit-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  
+  .habit-image-container{
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+  }
+  .habit-text{
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  .habit-card{
+    width: 230px;
+    height: 260px;
+    text-align: center;
+  }
+  .habit-card img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+  /* banner start here  */
+  .main-container{
+    background-color: black;
+  }
+
+  .container{
+    max-width: 1300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  .banner-container{
+    display: flex;
+    width: 800px;
+    height: 300px;
+    border-radius: 20px;
+    align-items: center;
+    
+    background-color: rgba(99, 103, 103, 0.644);
+    
+    
+    gap: 20px;
+    
+    
+  }
+  .hide{
+    display: none;
+  }
+  .banner-image img{
+    width: 400px;
+    height: 300px;
+    border-radius: 40px;
+    padding: 4px;
+  }
+  .banner-content{
+    width:400px ;
+    height:300px ;
+    
+    border-radius:40px ;
+    justify-content: left;
+    align-items: center;
+    padding-top: 30px;
+  }
+  .banner-title{
+    color: white;
+  }
+  .banner-description{
+    color: white;
+  }
+  /* trainer section start here  */
+.main-trainer-container{
+  background-color: black;
+
+}
+
+.trainer-container{
+max-width: 1300px;
+margin: 0 auto;
+padding-top: 50px;
+padding-bottom: 50px;
+
+}
+.trainer-content{
+  text-align: center;
+  margin-bottom: 30px;
+}
+.trainer-title{
+  color: white;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.trainer-description{
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.trainer-image{
+  width: 940px;
+  height: 450px;
+  /* border: 1px solid tomato; */
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  gap: 0px;
+  background-color: rgba(14, 17, 17, 0.901);
+  padding: 5px 5px;
+  border-radius: 20px;
+}
+.trainer-image img{
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+.child-1{
+  width: 280px;
+  height: 210px;
+  position: relative;
+  padding: 10px 10px;
+}
+.image-text{
+  position: absolute;
+  top: 70%;
+  left: 5%;
+}
+
+
+.child-title{
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: white;
+}
+.child-subtitle{
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.732);
+  text-align: left;
+}
+/* trainer end here  */
+/* challenge section start here  */
+
+.special-container{
+
+  background-color: rgba(4, 16, 16, 0.951);
+}
+th,tr,td{
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 5px 5px;
+  color: white;
+  font-weight: 500;
+}
+.challenge-container{
+  max-width: 1200px;
+  margin: 0  auto;
+
+}
+.special-title1{
+  font-size: 1.5rem;
+  color: white;
+  padding-bottom: 25px;
+
+}
+.challenge-description{
+color: white;
+font-weight: 400;
+padding-bottom: 50px;
+}
+.special-title2{
+  font-size: 1.5rem;
+  color: white;
+  padding-bottom: 20px;
+
+}
+.form-container{
+  width: 850px;
+  height: 400px;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+.form-container{
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  background-color: rgba(4, 16, 16, 0.701);
+}
+.input-container{
+  width: 450px;
+  height: 280px;
+
+  
+  
+}  
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  width: 300px;
+  padding-top: 20px;
+
+  
+  
+
+}
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  background-color: rgba(14, 17, 17, 0.901);
+  filter: blur(20%);
+  
+
+  
+}
+.select{
+  width: 300px;
+  padding: 8px;
+  box-sizing: border-box;
+  background-color: rgba(14, 17, 17, 0.901);
+  color: rgba(255, 255, 255, 0.425);
+  filter: blur(20%);
+}  
+.select1{
+  background-color: rgba(14, 17, 17, 0.901);
+  color: rgba(255, 255, 255, 0.448);
+  filter: blur(20%);
+
+}
+.challenge-btn{
+  margin-left: 100px;
+}
+.primary-btn{
+  background-color:rgb(230, 83, 60) ;
+  color: white;
+  border-radius: 10px ;
+  padding: 7px 7px;
+}
+
+/* challenge section end here  */
+/* footer start here  */
+.footer-container{
+  background-color: rgba(22, 24, 24, 0.872);
+
+}
+.footer-main-container{
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.fitness-container{
+  width: 940px;
+  height: 300px;
+  /* border: 1px solid tomato; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  text-align: left;
+  gap: 50px;
+  justify-content: space-evenly;
+  padding: 10px 10px ;
+
+}
+.fitness-container1{
+padding: 5px 0px;
+/* width: 500px; */
+
+}
+
+.title{
+  color: red;
+  font-weight: 700;
+  font-size: 3rem;
+  padding-bottom: 30px;
+}
+.description{
+  color: white;
+  font-weight: 500;
+  font-size: 1rem;
+}
+.container-title{
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: white;
+}
+.container-description{
+  font-size: 1rem;
+  font-weight: 500;
+color: white;
+padding: 5px;
+}
+hr{
+
+  /* padding-bottom: 20px; */
+  margin-left: 150px;
+  margin-right: 180px;
+  font-size: 2rem;
+
+}
+.reserved{
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: white;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width: 576px){
+    .banner-container{
+      flex-direction: column;
+      width: 100%;
+      height: auto;
+      gap: 30px;
+    }
+    .banner-content, .banner-image img{
+      width: 100%;
+      height: auto;
+      text-align: center;
+    }
+    .container{
+      width: 100%;
+      height: 120%;
+      
+    }
+    .trainer-image, .fitness-container{
+      grid-template-columns: repeat(1, 1fr);
+      width: 100%;
+      height: auto;
+    }
+    .child-1{
+      width: 100%;
+      height: auto;
+    }
+    .trainer-container{
+      width: 100%;
+      height: auto;
+      padding: 5px 5px;
+      margin: 0px;
+    }
+    .trainer-image img{
+      width: 100%;
+      height: auto;
+    }
+    .fitness-container{
+      gap: 10px;
+      text-align: left;
+      width: 100%;
+      height: auto;
+    }
+    .form-container{
+      flex-direction: column;
+      width: 100%;
+      height: auto;
+      gap: 20px;
+      padding-top: 10px;
+  }
+  .input-container{
+      width: 100%;
+      height: auto;
+  }
+  .grid-container{
+      width: 100%;
+      height: auto;
+      gap: 5px;
+  }
+  *{
+      margin: 0;
+  }
+  .select{
+      width: 100%;
+  }
+  .challenge-description{
+  padding-bottom: 20px;
+  }
+  .challenge-btn{
+      margin-left: 0px;
+  }
+    .footer-main-container{
+      padding-top: 10px;
+      padding-bottom: 10px;
+      width: 100%;
+      height: auto;
+    }
+    hr{
+      margin: 0 40px;
+    }
+    .fitness-container1, .fitness-container2, .fitness-container3{
+      width: 100%;
+      height: auto;
+    }
+    .reserved{
+      padding-top: 0px;
+      padding-bottom: 5px;
+    }
+  }
