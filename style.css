@@ -165,6 +165,20 @@ padding-top: 50px;
 padding-bottom: 50px;
 
 }
+.btn-trainer{
+  text-align: center;
+}
+.btn-primary{
+  background-color:rgb(230, 83, 60) ;
+    padding: 10px 10px;
+    border-radius: 20px;
+    font-size: 1.0rem;
+    color: white;
+    margin: 5px 5px;
+    border: 1px solid rgba(0, 0, 0, 0.468);
+    width: 60%;
+  
+}
 .trainer-content{
   text-align: center;
   margin-bottom: 30px;
@@ -283,6 +297,7 @@ padding-bottom: 50px;
   gap: 10px;
   width: 300px;
   padding-top: 20px;
+  padding-bottom: 10px;
 
   
   
@@ -313,13 +328,17 @@ input[type="text"] {
 
 }
 .challenge-btn{
-  margin-left: 100px;
+  /* margin-left: 100px; */
+  padding-top: 10px;
+  text-align: left;
 }
 .primary-btn{
   background-color:rgb(230, 83, 60) ;
   color: white;
-  border-radius: 10px ;
+  border-radius: 20px ;
   padding: 7px 7px;
+  width: 30%;
+ 
 }
 
 /* challenge section end here  */
@@ -425,6 +444,10 @@ hr{
       height: 120%;
       
     }
+    *{
+      margin: 0;
+      
+    }
     .trainer-image, .fitness-container{
       grid-template-columns: repeat(1, 1fr);
       width: 100%;
@@ -439,6 +462,9 @@ hr{
       height: auto;
       padding: 5px 5px;
       margin: 0px;
+    }
+    .btn-primary{
+      width: 100%;
     }
     .trainer-image img{
       width: 100%;
@@ -485,7 +511,7 @@ hr{
       height: auto;
     }
     hr{
-      margin: 0 40px;
+      margin: 0 0px;
     }
     .fitness-container1, .fitness-container2, .fitness-container3{
       width: 100%;
